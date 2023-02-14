@@ -4,6 +4,8 @@ from Basic_Test import is_prime
 
 # import the is_prime function
 
+# Testing demo
+
 class TestPrime(unittest.TestCase):
     def test_two(self):
         self.assertTrue(is_prime(2))
