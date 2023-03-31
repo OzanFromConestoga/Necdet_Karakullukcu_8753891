@@ -16,6 +16,8 @@ search_bar.send_keys("film")
 search_bar.send_keys(Keys.RETURN)
 time.sleep(5)
 
+#
+
 # Verifying that the search results page has loaded
 assert "film" in driver.title
 
